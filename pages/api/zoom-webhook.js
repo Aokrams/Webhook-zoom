@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-    const VERIFICATION_TOKEN = "tu_verification_token";
+    const VERIFICATION_TOKEN = "eCDc8ZD2Rr2QLhqXMqHWZg";
 
     // Validar el token de Zoom
     if (req.headers.authorization !== VERIFICATION_TOKEN) {
